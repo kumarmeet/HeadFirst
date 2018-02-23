@@ -34,9 +34,9 @@ class GuessGame{
 
             guessp1=p1.number;
             System.out.println("Player one guessed is "+ guessp1);
-            guessp2=p1.number;
+            guessp2=p2.number;
             System.out.println("Player two guessed is "+ guessp2);
-            guessp3=p1.number;
+            guessp3=p3.number;
             System.out.println("Player three guessed is "+ guessp3);
 
             if(guessp1==targetNumber){
